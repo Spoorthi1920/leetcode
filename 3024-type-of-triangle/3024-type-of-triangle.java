@@ -4,6 +4,7 @@ class Solution {
         if(nums[0]+nums[1]<=nums[2] || nums[1]+nums[2]<=nums[0] || nums[0]+nums[2]<=nums[1]){
             return "none";
         }
+        
         HashSet<Integer> set = new HashSet<>();
         for(int i: nums) set.add(i);
         int p = set.size();
