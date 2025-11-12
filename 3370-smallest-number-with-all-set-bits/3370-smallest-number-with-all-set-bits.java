@@ -1,6 +1,6 @@
 class Solution {
     public int smallestNumber(int n) {
-        int i=1;
+        int i=n;
         
         while(true){
             String d = Integer.toBinaryString(i);
